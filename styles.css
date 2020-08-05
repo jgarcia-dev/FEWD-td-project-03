@@ -121,6 +121,7 @@ select {
 }
 
 input::placeholder {
+    font-size: .89em;
     text-align: right;
     font-style: italic;
     padding-right: 10px;
@@ -165,4 +166,30 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+
+/* ==================================================================== 
+Media Queries
+=======================================================================*/
+
+@media (min-width: 768px) {
+    form {
+        width: 600px;
+        margin: auto;
+    }
+
+    .row {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .row label {
+        min-width: 30%;
+        margin: 0;
+    }
+
+    .narrow {
+        max-width: 30%;
+    }
 }
