@@ -7,19 +7,17 @@
     <title>Project-3 Online Form</title>
 </head>
 <body>
-    <h1>The code review</h1>
+    <h1 class="site-name">The code review</h1>
 
     <form action="#" method="POST">
-        <div class="banner-container">
+        <div class="header">
             <h2>Signup for our newsletter</h2>
             <p>Get the latest news on how your code is doing right in your inbox</p>
         </div>
-        <hr>
 
         <fieldset>
             <legend>Contact Information</legend>
-            
-            <div class="row">
+            <div class="row clear">
                 <label for="name_tbx">Full Name</label>
                 <input type="text" name="user_name" id="name_tbx" placeholder="Required" required>
             </div>
@@ -61,11 +59,10 @@
                 <input class="narrow" type="text" name="user_zip" id="zipcode_tbx" placeholder="ex. 11111">
             </div>
         </fieldset>
-        <hr>
 
         <fieldset>
             <legend>Newsletter</legend>
-            <div class="choice-group">
+            <div class="choice-group clear">
                 <p>Select the newsletters you would like to receive</p> 
 
                 <input type="checkbox" name="newsletter_choice" id="html_news_cbx" value="html_news">
