@@ -2,15 +2,15 @@
 
 Project 3 for Front End Developer Techdegree from Treehouse
 
-#### Description:
+### Description:
 A responsive and mobile-friendly registration form that contains various HTML input types.  Built to match provided mockups.
 
 
-#### Technologies Used:
+### Technologies Used:
 - HTML
 - CSS
 
 
-#### Features:
+### Features:
 -	Uses HTML5 validation for some form fields.
 -	Uses CSS transitions for focus states.
